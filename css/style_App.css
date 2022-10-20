@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 * {
     font-family: 'Montserrat';
 }
@@ -126,7 +127,7 @@ nav ul li a h2 {
 
 .titulo h2 {
     font-size: 42px;
-    font-weight: 200;
+    font-weight: 400;
     color: #fff;
     margin: 0px;
 }
@@ -138,7 +139,7 @@ nav ul li a h2 {
 .sub_titulo p {
     font-size: 20px;
     color: #fff;
-    font-weight: 200;
+    font-weight: 400;
     margin: 0px;
 }
 
@@ -197,7 +198,7 @@ nav ul li a h2 {
 .title_section_2 h2 {
     color: #4A4A4A;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 400;
     text-transform: uppercase;
 }
 .title_section_2 h2 b {
@@ -212,7 +213,7 @@ nav ul li a h2 {
 .area_section_2_texts h2 {
     color: #4A4A4A;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 400;
     margin: 0px 0px 60px 0px;
 }
 
@@ -309,7 +310,7 @@ nav ul li a h2 {
 .title_text_3 h2 {
     font-size: 36px;
     color: #4A4A4A;
-    font-weight: 200;
+    font-weight: 400;
     margin: 0px;
 }
 .title_text_3 h2  b {
@@ -396,7 +397,7 @@ footer {
 
 .area_1_footer_texts h2 {
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
     color: #fff;
     margin: 0px;
 }
@@ -438,7 +439,7 @@ footer {
 
 .area_2_footer_texts h2 {
     color: #fff;
-    font-weight: 200;
+    font-weight: 400;
     margin: 0px;
     font-size: 16px;
 }
@@ -515,7 +516,7 @@ footer {
     }
 
     nav ul li a h2 {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 20px;
     }
 
