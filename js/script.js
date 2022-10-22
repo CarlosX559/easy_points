@@ -28,4 +28,37 @@ function menu(){
         
     );
 }
-window.onload( menu() );
+menu();
+
+
+function faq() {
+
+    const quest = document.querySelectorAll(".quest");
+    const aswer = document.querySelectorAll(".aswer");
+  
+
+    for (let i = 0; i < quest.length; i++) {
+       
+        quest[i].addEventListener("click", () => {
+
+            if( quest[i].classList.contains("close") ) {
+                quest[i].classList.toggle("close");
+                aswer[i].classList.toggle("open");
+
+              
+               
+            }else {
+                quest[i].classList.add("close");
+                aswer[i].classList.add("open");
+
+              
+            }
+
+
+        });
+
+        
+    }
+
+}
+faq();
