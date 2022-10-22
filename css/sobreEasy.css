@@ -69,6 +69,10 @@ nav ul li a h2 {
     font-size: 14px;
 }
 
+.active_header {
+    color: #7B23EE;
+}
+
 .area_btn_header {
     display: flex;
     align-items: center;

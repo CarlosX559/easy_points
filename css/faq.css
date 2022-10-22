@@ -69,6 +69,10 @@ nav ul li a:hover {
     color: #7B23EE;
 }
 
+.active_header {
+    color: #7B23EE;
+}
+
 nav ul li a h2 {
     font-weight: bold;
     font-size: 14px;

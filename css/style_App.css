@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 * {
     font-family: 'Montserrat';
 }
@@ -26,15 +27,18 @@ a {
     width: 100%;
     max-width: 1200px;
 }
+
 .menu_desktop {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
+
 .menu_mobile {
     display: none;
 }
+
 .area_menu {
     display: flex;
     align-items: center;
@@ -83,6 +87,10 @@ nav ul li a h2 {
     font-weight: bold;
     font-size: 16px;
     color: #482080;
+}
+
+.active_header {
+    color: #7B23EE;
 }
 
 #container_section_1 {
@@ -161,9 +169,11 @@ nav ul li a h2 {
     color: #fff;
     text-transform: uppercase;
 }
+
 .btn_section_1.mobile {
     display: none;
 }
+
 .area_btn_play img {
     width: 100%;
     max-width: max-content;
@@ -201,9 +211,11 @@ nav ul li a h2 {
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .title_section_2 h2 b {
     color: #7B23EE;
 }
+
 .area_section_2_texts {
     display: flex;
     flex-direction: column;
@@ -235,15 +247,17 @@ nav ul li a h2 {
     margin: 0px;
     font-size: 22px;
 }
+
 .destaque h2 {
     color: #7B23EE;
     font-weight: bold;
 }
+
 .area_section_2_img {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 }
 
 .area_section_2_img img {
@@ -261,6 +275,7 @@ nav ul li a h2 {
     width: 100%;
     max-width: 250px;
 }
+
 .text_change {
     color: #4A4A4A;
     font-size: 16px;
@@ -285,35 +300,41 @@ nav ul li a h2 {
     padding: 70px 0px 70px 0px;
     background-color: #EAE7FA;
 }
+
 .container_section_3_int {
     display: flex;
     justify-content: center;
     max-width: 1200px;
     width: 100%;
 }
+
 .area_container_3 {
     display: flex;
     gap: 40px;
     align-items: center;
     height: 100%;
 }
+
 .img_section_3 img {
     width: 100%;
     max-width: max-content;
 }
+
 .area_texts_3 {
     display: flex;
     flex-direction: column;
     max-width: 460px;
     gap: 30px;
 }
+
 .title_text_3 h2 {
     font-size: 36px;
     color: #4A4A4A;
     font-weight: 400;
     margin: 0px;
 }
-.title_text_3 h2  b {
+
+.title_text_3 h2 b {
     color: #7B23EE;
 }
 
@@ -322,20 +343,25 @@ nav ul li a h2 {
     color: #4A4A4A;
     margin: 0px;
 }
+
 .duvidas {
     margin-top: 10px;
 }
+
 .duvidas h2 {
     font-size: 36px;
     color: #7B23EE;
     margin: 0px;
 }
+
 .duvidas.mobile {
     display: none;
 }
+
 .btn_section_3.mobile {
     display: none;
 }
+
 .btn_section_3 {
     display: flex;
     align-items: center;
@@ -472,7 +498,7 @@ footer {
 }
 
 
-@media( max-width: 1024px ) {
+@media(max-width: 1024px) {
 
     .menu_desktop {
         display: none;
@@ -558,43 +584,53 @@ footer {
         }
 
     }
+
     .btn_menu_mobile h2 {
         font-weight: bold;
         font-size: 20px;
         color: #fff;
     }
+
     .area_container_1 {
         flex-direction: column;
         align-items: center;
         gap: 20px;
         padding: 60px 0px 60px 0px;
     }
+
     .area_texts_1 {
         max-width: 320px;
     }
+
     .titulo h2 {
         font-size: 32px;
     }
+
     .sub_titulo p {
         font-size: 16px;
     }
+
     .btn_section_1.desktop {
         display: none;
     }
+
     .btn_section_1.mobile {
         display: flex;
     }
+
     .area_btn_play {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .area_btn_play img {
         width: 100%;
         max-width: 164px;
     }
+
     .img_dots_1 img {
-      display: none;
+        display: none;
     }
 
     .area_section_2 {
@@ -602,10 +638,12 @@ footer {
         align-items: center;
         padding: 0px 20px;
     }
+
     .area_section_2_img {
         flex-direction: column-reverse;
         gap: 40px;
     }
+
     .title_section_2 h2 {
         font-size: 30px;
         margin-bottom: 40px;
@@ -618,30 +656,38 @@ footer {
         align-items: center;
         padding: 0px 20px;
     }
+
     .title_text_3 h2 {
         font-size: 26px;
     }
+
     .img_section_3 {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
+
     .duvidas h2 {
         font-size: 28px;
     }
+
     .duvidas.mobile {
         display: flex;
     }
+
     .btn_section_3.mobile {
         display: flex;
     }
+
     .duvidas.desktop {
         display: none;
     }
+
     .btn_section_3.desktop {
         display: none;
     }
+
     .area_footer {
         flex-direction: column;
         gap: 40px;

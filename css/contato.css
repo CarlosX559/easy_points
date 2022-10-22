@@ -78,7 +78,8 @@ nav ul li a h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #42247B;
+    border: 2px solid #AD93EE;
+    background-color: #7B23EE;
     border-radius: 20px;
     width: 180px;
     height: 40px;
@@ -87,7 +88,7 @@ nav ul li a h2 {
 .area_btn_header h2 {
     font-weight: bold;
     font-size: 16px;
-    color: #482080;
+    color: #fff;
 }
 
 .container_contact {
