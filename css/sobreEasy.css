@@ -399,8 +399,12 @@ nav ul li a h2 {
 .img_aspas img {
     width: 100%;
     max-width: max-content;
+    margin-bottom: 10px;
 }
-
+.img_aspas.right {
+    display: flex;
+    justify-content: flex-end;
+}
 .btn_section_3 {
     display: flex;
     justify-content: center;

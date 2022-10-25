@@ -35,7 +35,6 @@ function faq() {
 
     const quest = document.querySelectorAll(".quest");
     const aswer = document.querySelectorAll(".aswer");
-  
 
     for (let i = 0; i < quest.length; i++) {
        
@@ -45,23 +44,28 @@ function faq() {
                 quest[i].classList.toggle("close");
                 aswer[i].classList.toggle("open");
 
-              
-               
             }else {
                 quest[i].classList.add("close");
                 aswer[i].classList.add("open");
-
               
             }
 
 
         });
 
-        
     }
+
 
 }
 faq();
+
+function btn_circle() {
+    //let btn_1 = document.querySelectorAll(".btn_1");
+    //let btn_2 = document.querySelectorAll(".btn_2");
+
+
+
+}
 
 const animations = document.querySelectorAll("[data-animation]");
 const animationClass = "animate";
