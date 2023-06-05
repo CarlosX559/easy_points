@@ -63,7 +63,7 @@ const animations = document.querySelectorAll("[data-animation]");
 const animationClass = "animate";
 
 function animation_scroll() {
-    const area_window = window.innerHeight * 0.21 * 3.9;
+    const area_window = window.innerHeight * 0.21 * 3.8;
 
     animations.forEach((element) => {
         let posicaoAtual = element.getBoundingClientRect().top;
