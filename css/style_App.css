@@ -373,6 +373,10 @@ nav ul li a h2 {
     gap: 30px;
 }
 
+.area_texts_3 a {
+    max-width: 220px;
+}
+
 .title_text_3 h2 {
     font-size: 36px;
     color: #4A4A4A;
@@ -415,7 +419,8 @@ nav ul li a h2 {
     background-color: #482080;
     border: 2px solid #42247B;
     border-radius: 20px;
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
     height: 40px;
 }
 

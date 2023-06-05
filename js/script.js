@@ -59,14 +59,6 @@ function faq() {
 }
 faq();
 
-function btn_circle() {
-    //let btn_1 = document.querySelectorAll(".btn_1");
-    //let btn_2 = document.querySelectorAll(".btn_2");
-
-
-
-}
-
 const animations = document.querySelectorAll("[data-animation]");
 const animationClass = "animate";
 
@@ -87,3 +79,25 @@ function animation_scroll() {
 if (animations.length) {
     window.addEventListener("scroll", animation_scroll);
 }
+
+
+
+var selection = document.querySelectorAll('.img-opt-title');
+
+selection.forEach((element) => {
+
+    element.addEventListener('click', () => {
+
+
+            if(element.classList.contains('select') ) {
+                element.classList.toggle('select');  
+            }
+            else {
+                element.classList.add('select');  
+            }
+           
+        
+
+    });
+
+}); 
