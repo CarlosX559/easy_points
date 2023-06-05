@@ -296,7 +296,7 @@ nav ul li a h2 {
 
 .area_btn_section_1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
 }
 
