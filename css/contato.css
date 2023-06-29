@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 * {
     font-family: 'Montserrat';
 }
@@ -11,19 +12,23 @@ body {
 a {
     text-decoration: none;
 }
+
 header {
     background-color: #F4F5FB;
 }
+
 .container_menu {
     display: flex;
     width: 100%;
     height: 100px;
     justify-content: center;
 }
+
 a {
     text-decoration: none;
     color: #fff;
 }
+
 .container_menu_int {
     display: flex;
     justify-content: space-between;
@@ -31,15 +36,18 @@ a {
     width: 100%;
     max-width: 1200px;
 }
+
 .menu_desktop {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
+
 .menu_mobile {
     display: none;
 }
+
 .area_menu {
     display: flex;
     align-items: center;
@@ -123,13 +131,16 @@ nav ul li a h2 {
     margin-bottom: 60px;
     text-transform: uppercase;
 }
+
 .title_contact h2 b {
     color: #7B23EE;
 }
+
 .sub_title_contact {
     width: 100%;
     max-width: 920px;
 }
+
 .sub_title_contact p {
     font-size: 22px;
     color: #4A4A4A;
@@ -163,9 +174,11 @@ nav ul li a h2 {
     border-radius: 30px;
 
 }
+
 .email_contact img {
     margin-bottom: 20px;
 }
+
 .email_contact h2 {
     font-size: 18px;
     font-weight: bold;
@@ -173,6 +186,7 @@ nav ul li a h2 {
     margin: 0px;
     text-align: center;
 }
+
 .email_contact p {
     font-size: 14px;
     font-weight: 400;
@@ -180,10 +194,12 @@ nav ul li a h2 {
     margin: 0px;
     text-align: center;
 }
+
 .form {
     width: 100%;
     max-width: 700px;
 }
+
 .form form {
     display: flex;
     flex-direction: column;
@@ -220,12 +236,14 @@ textarea {
     max-width: 658px;
     resize: none;
 }
+
 .area_enviar {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
 }
+
 .enviar {
     display: flex;
     justify-content: center;
@@ -247,7 +265,7 @@ textarea {
 footer {
     background-color: #662D91;
     width: 100%;
-    padding: 80px 0px 40px 0px;
+    padding: 60px 0px 40px 0px;
 }
 
 .container_footer {
@@ -406,6 +424,7 @@ footer {
     nav ul li a h2 {
         font-weight: 400;
         font-size: 20px;
+        margin: 10px 0px 5px 0px;
     }
 
     .line {
@@ -446,14 +465,24 @@ footer {
         }
 
     }
+
+    .btn_menu_mobile h2 {
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+    }
+
+
     .area_contact_form {
         flex-direction: column;
         align-items: center;
     }
+
     .area_enviar {
         justify-content: center;
         align-items: center;
     }
+
     .infos_contact {
         flex-direction: column;
     }
@@ -469,27 +498,50 @@ footer {
     }
 }
 
-@media(max-width:425px) {
+@media(max-width: 480px) {
+    nav ul li a h2 {
+        font-size: 18px;
+    }
+
+    .container_contact {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .btn_menu_mobile {
+        margin-top: 20px;
+    }
+
     .title_contact h2 {
         font-size: 28px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
+
+    .area_contact_form {
+        padding: 20px 0px 20px 0px;
+    }
+
     .form {
         max-width: 325px;
     }
+
     .form form {
         width: 100%;
         justify-content: center;
         align-items: center;
     }
+
     .infos_contact {
         width: 100%;
         flex-direction: column;
         align-items: center;
     }
+
     textarea {
         height: 260px;
         max-width: 305px;
     }
-}
 
+    footer {
+        padding: 40px 0px 40px 0px;
+    }
+}

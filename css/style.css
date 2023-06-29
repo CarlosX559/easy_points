@@ -290,7 +290,14 @@ nav ul li a h2 {
     max-width: 380px;
 }
 
-.area_section_2_texts h2 {
+.info h2 {
+    color: #4A4A4A;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+
+.title_section_texts {
     color: #4A4A4A;
     font-size: 36px;
     font-weight: 400;
@@ -541,7 +548,7 @@ nav ul li a h2 {
 footer {
     background-color: #662D91;
     width: 100%;
-    padding: 80px 0px 40px 0px;
+    padding: 60px 0px 40px 0px;
 }
 
 .container_footer {
@@ -714,6 +721,7 @@ footer {
     nav ul li a h2 {
         font-weight: 400;
         font-size: 20px;
+        margin: 10px 0px 5px 0px;
     }
 
     .line {
@@ -861,10 +869,54 @@ footer {
         gap: 20px;
     }
 
+    .container_section_4 {
+        margin: 40px 0px 40px 0px;
+    }
+
+    .title_section_4 h2 {
+        font-size: 26px;
+    }
 
     .area_footer {
         flex-direction: column;
         gap: 40px;
+    }
+
+}
+
+@media(max-width: 480px) {
+
+    nav ul li a h2 {
+        font-size: 18px;
+    }
+
+    .btn_menu_mobile {
+        margin-top: 20px;
+    }
+
+    .area_section_1_texts {
+        gap: 20px;
+    }
+
+    .container_section_1 {
+        padding: 40px 0px 140px 0px;
+    }
+
+    .title_section_texts {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .info {
+        justify-content: center;
+    }
+
+    .container_section_3 {
+        padding: 40px 0px 40px 0px;
+    }
+
+
+    footer {
+        padding: 40px 0px 40px 0px;
     }
 
 }

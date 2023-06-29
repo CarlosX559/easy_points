@@ -271,7 +271,7 @@ nav ul li a h2 {
     font-size: 16px;
     color: #4A4A4A;
     margin: 0px;
-    line-height: 32px;
+    line-height: 28px;
     font-weight: 400;
 }
 
@@ -321,10 +321,15 @@ nav ul li a h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
     max-width: 1200px;
     width: 100%;
-    padding: 60px 0px 60px 0px;
+    padding: 0px 0px 60px 0px;
+}
+
+.container_section_3_int a {
+    width: 100%;
+    max-width: 264px;
 }
 
 .title_section_3 h2 {
@@ -405,16 +410,18 @@ nav ul li a h2 {
     max-width: max-content;
     margin-bottom: 10px;
 }
+
 .img_aspas.right {
     display: flex;
     justify-content: flex-end;
 }
+
 .btn_section_3 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 250px;
+    max-width: 220px;
     height: 46px;
     border-radius: 100px;
     background-color: #482080;
@@ -432,7 +439,7 @@ nav ul li a h2 {
 footer {
     background-color: #662D91;
     width: 100%;
-    padding: 80px 0px 40px 0px;
+    padding: 60px 0px 40px 0px;
 }
 
 .container_footer {
@@ -589,6 +596,7 @@ footer {
     nav ul li a h2 {
         font-weight: 400;
         font-size: 20px;
+        margin: 10px 0px 5px 0px;
     }
 
     .line {
@@ -675,4 +683,61 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+}
+
+@media(max-width: 480px) {
+    nav ul li a h2 {
+        font-size: 18px;
+    }
+    .btn_menu_mobile {
+        margin-top: 20px;
+    }
+    .container_section_1 {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .area_section_1_texts h2 {
+        font-size: 26px;
+    }
+
+    .area_section_1_texts {
+        gap: 20px;
+    }
+
+    .texts_info h2 {
+        font-size: 18px;
+    }
+
+
+    .text_slide {
+        gap: 20px;
+    }
+
+    .text_slide h2 {
+        font-size: 28px;
+    }
+
+    .btn_section_1 h2 {
+        font-size: 16px;
+    }
+
+    .container_section_3 {
+        padding: 0px 20px;
+        width: auto;
+    }
+
+    .container_section_3_int {
+        gap: 40px;
+        padding: 0px 0px 40px 0px;
+    }
+
+    .title_section_3 h2 {
+        font-size: 28px;
+    }
+
+    footer {
+        padding: 40px 0px 40px 0px;
+    }
+
+
 }
