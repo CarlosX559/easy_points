@@ -43,15 +43,15 @@ body {
 }
 
 [data-animation="down"] {
-    transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 20px, 0);
 }
 
 [data-animation="left"] {
-    transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
 }
 
 [data-animation="right"] {
-    transform: translate3d(50px, 0, 0);
+    transform: translate3d(20px, 0, 0);
 }
 
 [data-animation].animate {
